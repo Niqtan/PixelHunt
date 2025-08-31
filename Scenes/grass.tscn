@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://b0iw2ma13gafg"]
+
+[ext_resource type="Texture2D" uid="uid://ot53yatli0qb" path="res://PixelHunt/Main Characters/cao.png" id="1_ewrq5"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_on02d"]
+radius = 11.0
+
+[node name="CharacterBody2D2" type="CharacterBody2D"]
+up_direction = Vector2(0.0349786, -0.999388)
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(3503.06, -2.13636)
+scale = Vector2(1.31637, 0.866477)
+texture = ExtResource("1_ewrq5")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(3498.06, -4.13637)
+shape = SubResource("CircleShape2D_on02d")

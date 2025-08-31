@@ -1,0 +1,55 @@
+[gd_scene load_steps=3 format=3 uid="uid://b0esphxipdq8t"]
+
+[ext_resource type="Texture2D" uid="uid://ot53yatli0qb" path="res://PixelHunt/Main Characters/cao.png" id="1_brlge"]
+[ext_resource type="Script" uid="uid://dhxmx4ssfnlk5" path="res://Scenes/menubutton.gd" id="2_lagmu"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 0
+offset_left = -3.0
+offset_top = 3.0
+offset_right = 1154.0
+offset_bottom = 654.0
+color = Color(0.556863, 1, 0, 1)
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 2.0
+offset_top = 197.0
+offset_right = 1526.0
+offset_bottom = 334.0
+theme_override_font_sizes/font_size = 75
+text = "Follow a CS nerd touching grass"
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = 199.0
+offset_top = 313.0
+offset_right = 555.0
+offset_bottom = 706.0
+texture = ExtResource("1_brlge")
+
+[node name="TextureRect2" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = 805.0
+offset_top = 309.0
+offset_right = 1161.0
+offset_bottom = 702.0
+texture = ExtResource("1_brlge")
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 0
+offset_left = 472.0
+offset_top = 380.0
+offset_right = 795.0
+offset_bottom = 564.0
+theme_override_font_sizes/font_size = 100
+text = "SURE"
+script = ExtResource("2_lagmu")

@@ -1,0 +1,362 @@
+[gd_scene load_steps=84 format=3 uid="uid://duoc1se6votv5"]
+
+[ext_resource type="Script" uid="uid://dlutuwoheqncp" path="res://Scenes/nerd.gd" id="1_ogcpm"]
+[ext_resource type="Texture2D" uid="uid://dn6ewipjloxpe" path="res://PixelHunt/Main Characters/free_geek_boy_male_game_character_sprites/PNG Images Sequences/run/run_000.png" id="1_ymxaj"]
+[ext_resource type="Texture2D" uid="uid://bowooklpid6to" path="res://PixelHunt/Main Characters/free_geek_boy_male_game_character_sprites/PNG Images Sequences/jump/jump_000.png" id="3_3pqjl"]
+[ext_resource type="Texture2D" uid="uid://d1yyx6364i2iy" path="res://PixelHunt/Main Characters/free_geek_boy_male_game_character_sprites/PNG Images Sequences/jump/jump_001.png" id="4_i400o"]
+[ext_resource type="Texture2D" uid="uid://co3dqbfjusovt" path="res://PixelHunt/Main Characters/free_geek_boy_male_game_character_sprites/PNG Images Sequences/jump/jump_002.png" id="5_i2j75"]
+[ext_resource type="Texture2D" uid="uid://ti8x6smea3ls" path="res://PixelHunt/Main Characters/free_geek_boy_male_game_character_sprites/PNG Images Sequences/jump/jump_003.png" id="6_2howl"]
+[ext_resource type="Texture2D" uid="uid://dmbvtvj46l84j" path="res://PixelHunt/Main Characters/free_geek_boy_male_game_character_sprites/PNG Images Sequences/jump/jump_004.png" id="7_8b5tf"]
+[ext_resource type="Texture2D" uid="uid://bbgv3lolu2gp8" path="res://PixelHunt/Main Characters/free_geek_boy_male_game_character_sprites/PNG Images Sequences/jump/jump_005.png" id="8_j6hv3"]
+[ext_resource type="Texture2D" uid="uid://d0imcm5il1mha" path="res://PixelHunt/Main Characters/free_geek_boy_male_game_character_sprites/PNG Images Sequences/jump/jump_006.png" id="9_an0vt"]
+[ext_resource type="Texture2D" uid="uid://ck8d14lwxcusm" path="res://PixelHunt/Main Characters/free_geek_boy_male_game_character_sprites/PNG Images Sequences/jump/jump_007.png" id="10_eove6"]
+[ext_resource type="Texture2D" uid="uid://cgiqx07uyqegi" path="res://PixelHunt/Main Characters/free_geek_boy_male_game_character_sprites/PNG Images Sequences/jump/jump_008.png" id="11_rv0if"]
+[ext_resource type="Texture2D" uid="uid://cl5dpcwe7qtqa" path="res://PixelHunt/Main Characters/free_geek_boy_male_game_character_sprites/PNG Images Sequences/jump/jump_009.png" id="12_l2twt"]
+[ext_resource type="Texture2D" uid="uid://c8ipcon3t57fq" path="res://PixelHunt/Main Characters/free_geek_boy_male_game_character_sprites/PNG Images Sequences/jump/jump_010.png" id="13_gnioa"]
+[ext_resource type="Texture2D" uid="uid://dpjm8cx8ojvjl" path="res://PixelHunt/Main Characters/free_geek_boy_male_game_character_sprites/PNG Images Sequences/jump/jump_011.png" id="14_2cs26"]
+[ext_resource type="Texture2D" uid="uid://bs8ksuaufao4f" path="res://PixelHunt/Main Characters/free_geek_boy_male_game_character_sprites/PNG Images Sequences/jump/jump_012.png" id="15_bq021"]
+[ext_resource type="Texture2D" uid="uid://2fuoynlrpxxv" path="res://PixelHunt/Main Characters/free_geek_boy_male_game_character_sprites/PNG Images Sequences/jump/jump_013.png" id="16_40g4x"]
+[ext_resource type="Texture2D" uid="uid://dvappkcd460d2" path="res://PixelHunt/Main Characters/free_geek_boy_male_game_character_sprites/PNG Images Sequences/jump/jump_014.png" id="17_polq3"]
+[ext_resource type="Texture2D" uid="uid://chqcgh2fqlque" path="res://PixelHunt/Main Characters/free_geek_boy_male_game_character_sprites/PNG Images Sequences/jump/jump_015.png" id="18_bgksu"]
+[ext_resource type="Texture2D" uid="uid://c8b8664bovyys" path="res://PixelHunt/Main Characters/free_geek_boy_male_game_character_sprites/PNG Images Sequences/jump/jump_016.png" id="19_4f6x5"]
+[ext_resource type="Texture2D" uid="uid://fa2yyvx110ee" path="res://PixelHunt/Main Characters/free_geek_boy_male_game_character_sprites/PNG Images Sequences/jump/jump_017.png" id="20_nmftg"]
+[ext_resource type="Texture2D" uid="uid://canu15c803mdy" path="res://PixelHunt/Main Characters/free_geek_boy_male_game_character_sprites/PNG Images Sequences/jump/jump_018.png" id="21_mpoen"]
+[ext_resource type="Texture2D" uid="uid://xp5qs1ivhqvs" path="res://PixelHunt/Main Characters/free_geek_boy_male_game_character_sprites/PNG Images Sequences/jump/jump_019.png" id="22_qac61"]
+[ext_resource type="Texture2D" uid="uid://bp2cfbdqmwra6" path="res://PixelHunt/Main Characters/free_geek_boy_male_game_character_sprites/PNG Images Sequences/jump/jump_020.png" id="23_aylql"]
+[ext_resource type="Texture2D" uid="uid://dkb001c5pcnsa" path="res://PixelHunt/Main Characters/free_geek_boy_male_game_character_sprites/PNG Images Sequences/jump/jump_021.png" id="24_ahl5k"]
+[ext_resource type="Texture2D" uid="uid://cycxivutlbdqw" path="res://PixelHunt/Main Characters/free_geek_boy_male_game_character_sprites/PNG Images Sequences/jump/jump_022.png" id="25_sovdu"]
+[ext_resource type="Texture2D" uid="uid://bt1anw8jopn43" path="res://PixelHunt/Main Characters/free_geek_boy_male_game_character_sprites/PNG Images Sequences/jump/jump_023.png" id="26_emuo2"]
+[ext_resource type="Texture2D" uid="uid://72shqf7bunmw" path="res://PixelHunt/Main Characters/free_geek_boy_male_game_character_sprites/PNG Images Sequences/jump/jump_024.png" id="27_ttwyp"]
+[ext_resource type="Texture2D" uid="uid://covw4lwtot75l" path="res://PixelHunt/Main Characters/free_geek_boy_male_game_character_sprites/PNG Images Sequences/jump/jump_025.png" id="28_jut5f"]
+[ext_resource type="Texture2D" uid="uid://bsny5j4ysleoq" path="res://PixelHunt/Main Characters/free_geek_boy_male_game_character_sprites/PNG Images Sequences/jump/jump_026.png" id="29_wr64v"]
+[ext_resource type="Texture2D" uid="uid://cdq77mqm68spr" path="res://PixelHunt/Main Characters/free_geek_boy_male_game_character_sprites/PNG Images Sequences/jump/jump_027.png" id="30_wp2iq"]
+[ext_resource type="Texture2D" uid="uid://cm1pgof1w20um" path="res://PixelHunt/Main Characters/free_geek_boy_male_game_character_sprites/PNG Images Sequences/jump/jump_028.png" id="31_3ig1t"]
+[ext_resource type="Texture2D" uid="uid://dol4i3042kqkn" path="res://PixelHunt/Main Characters/free_geek_boy_male_game_character_sprites/PNG Images Sequences/jump/jump_029.png" id="32_54ugb"]
+[ext_resource type="Texture2D" uid="uid://x8m37o0ymem3" path="res://PixelHunt/Main Characters/free_geek_boy_male_game_character_sprites/PNG Images Sequences/jump/jump_030.png" id="33_r57au"]
+[ext_resource type="Texture2D" uid="uid://8vgrpt7mgj3v" path="res://PixelHunt/Main Characters/free_geek_boy_male_game_character_sprites/PNG Images Sequences/jump/jump_031.png" id="34_8yc5e"]
+[ext_resource type="Texture2D" uid="uid://6ja5180xvdhm" path="res://PixelHunt/Main Characters/free_geek_boy_male_game_character_sprites/PNG Images Sequences/jump/jump_032.png" id="35_ogsam"]
+[ext_resource type="Texture2D" uid="uid://c03ipaoqthyxq" path="res://PixelHunt/Main Characters/free_geek_boy_male_game_character_sprites/PNG Images Sequences/jump/jump_033.png" id="36_5eql4"]
+[ext_resource type="Texture2D" uid="uid://cand0rqm0ogao" path="res://PixelHunt/Main Characters/free_geek_boy_male_game_character_sprites/PNG Images Sequences/jump/jump_034.png" id="37_cgrk8"]
+[ext_resource type="Texture2D" uid="uid://ts2abv8naldj" path="res://PixelHunt/Main Characters/free_geek_boy_male_game_character_sprites/PNG Images Sequences/jump/jump_035.png" id="38_ubr6v"]
+[ext_resource type="Texture2D" uid="uid://2c4alb1dsdfb" path="res://PixelHunt/Main Characters/free_geek_boy_male_game_character_sprites/PNG Images Sequences/jump/jump_036.png" id="39_8n5vi"]
+[ext_resource type="Texture2D" uid="uid://bay1nvrhuu7rj" path="res://PixelHunt/Main Characters/free_geek_boy_male_game_character_sprites/PNG Images Sequences/run/run_001.png" id="40_ohpn2"]
+[ext_resource type="Texture2D" uid="uid://vaow1s6gmkq5" path="res://PixelHunt/Main Characters/free_geek_boy_male_game_character_sprites/PNG Images Sequences/run/run_002.png" id="41_kdn4a"]
+[ext_resource type="Texture2D" uid="uid://dr0nrbfomvewf" path="res://PixelHunt/Main Characters/free_geek_boy_male_game_character_sprites/PNG Images Sequences/run/run_003.png" id="42_yb0it"]
+[ext_resource type="Texture2D" uid="uid://kemjnbqwcw6s" path="res://PixelHunt/Main Characters/free_geek_boy_male_game_character_sprites/PNG Images Sequences/run/run_004.png" id="43_w7puq"]
+[ext_resource type="Texture2D" uid="uid://c8s1aolvmnfec" path="res://PixelHunt/Main Characters/free_geek_boy_male_game_character_sprites/PNG Images Sequences/run/run_005.png" id="44_dpcva"]
+[ext_resource type="Texture2D" uid="uid://c5vy54ngw31cs" path="res://PixelHunt/Main Characters/free_geek_boy_male_game_character_sprites/PNG Images Sequences/run/run_006.png" id="45_vmqin"]
+[ext_resource type="Texture2D" uid="uid://c2kydchbnn1yo" path="res://PixelHunt/Main Characters/free_geek_boy_male_game_character_sprites/PNG Images Sequences/run/run_007.png" id="46_8pdyg"]
+[ext_resource type="Texture2D" uid="uid://3q5c3lkf2nqd" path="res://PixelHunt/Main Characters/free_geek_boy_male_game_character_sprites/PNG Images Sequences/run/run_008.png" id="47_uvtyb"]
+[ext_resource type="Texture2D" uid="uid://dq2fgtiuhcl1f" path="res://PixelHunt/Main Characters/free_geek_boy_male_game_character_sprites/PNG Images Sequences/run/run_009.png" id="48_6y1s2"]
+[ext_resource type="Texture2D" uid="uid://dkn1uxeuol7f7" path="res://PixelHunt/Main Characters/free_geek_boy_male_game_character_sprites/PNG Images Sequences/run/run_010.png" id="49_2taa0"]
+[ext_resource type="Texture2D" uid="uid://8u0qj5xysvj1" path="res://PixelHunt/Main Characters/free_geek_boy_male_game_character_sprites/PNG Images Sequences/run/run_011.png" id="50_20eea"]
+[ext_resource type="Texture2D" uid="uid://b2ff6n77r1wcm" path="res://PixelHunt/Main Characters/free_geek_boy_male_game_character_sprites/PNG Images Sequences/run/run_012.png" id="51_jc78h"]
+[ext_resource type="Texture2D" uid="uid://obhjvej5ep1r" path="res://PixelHunt/Main Characters/free_geek_boy_male_game_character_sprites/PNG Images Sequences/run/run_013.png" id="52_nfsjf"]
+[ext_resource type="Texture2D" uid="uid://b0m3khycvna5b" path="res://PixelHunt/Main Characters/free_geek_boy_male_game_character_sprites/PNG Images Sequences/run/run_014.png" id="53_kqyyv"]
+[ext_resource type="Texture2D" uid="uid://brjwy3a5q0wj2" path="res://PixelHunt/Main Characters/free_geek_boy_male_game_character_sprites/PNG Images Sequences/run/run_015.png" id="54_ey5ov"]
+[ext_resource type="Texture2D" uid="uid://btnwbug5yxt43" path="res://PixelHunt/Main Characters/free_geek_boy_male_game_character_sprites/PNG Images Sequences/run/run_016.png" id="55_piq40"]
+[ext_resource type="Texture2D" uid="uid://dk78j6fys6rbo" path="res://PixelHunt/Main Characters/free_geek_boy_male_game_character_sprites/PNG Images Sequences/run/run_017.png" id="56_mlthq"]
+[ext_resource type="Texture2D" uid="uid://bnw42flnc1lnn" path="res://PixelHunt/Main Characters/free_geek_boy_male_game_character_sprites/PNG Images Sequences/run/run_018.png" id="57_nfqrt"]
+[ext_resource type="Texture2D" uid="uid://dpk0wwy6hw2m" path="res://PixelHunt/Main Characters/free_geek_boy_male_game_character_sprites/PNG Images Sequences/run/run_019.png" id="58_2sdyf"]
+[ext_resource type="Texture2D" uid="uid://1un200a6ii7i" path="res://PixelHunt/Main Characters/free_geek_boy_male_game_character_sprites/PNG Images Sequences/run/run_020.png" id="59_vywxr"]
+[ext_resource type="Texture2D" uid="uid://xfdcbxqw0cmd" path="res://PixelHunt/Main Characters/free_geek_boy_male_game_character_sprites/PNG Images Sequences/run/run_021.png" id="60_xoucx"]
+[ext_resource type="Texture2D" uid="uid://bsrwht0ykclrj" path="res://PixelHunt/Main Characters/free_geek_boy_male_game_character_sprites/PNG Images Sequences/run/run_022.png" id="61_bs1oj"]
+[ext_resource type="Texture2D" uid="uid://1ej0stqtqe0e" path="res://PixelHunt/Main Characters/free_geek_boy_male_game_character_sprites/PNG Images Sequences/run/run_023.png" id="62_5bkcg"]
+[ext_resource type="Texture2D" uid="uid://yl2uymb44ii0" path="res://PixelHunt/Main Characters/free_geek_boy_male_game_character_sprites/PNG Images Sequences/run/run_024.png" id="63_l5x05"]
+[ext_resource type="Texture2D" uid="uid://cpaqauu5kk080" path="res://PixelHunt/Main Characters/free_geek_boy_male_game_character_sprites/PNG Images Sequences/run/run_025.png" id="64_s1rbq"]
+[ext_resource type="Texture2D" uid="uid://6y7e0qdm8xrf" path="res://PixelHunt/Main Characters/free_geek_boy_male_game_character_sprites/PNG Images Sequences/run/run_026.png" id="65_a6rdu"]
+[ext_resource type="Texture2D" uid="uid://dt0v1n2ocwxrj" path="res://PixelHunt/Main Characters/free_geek_boy_male_game_character_sprites/PNG Images Sequences/run/run_027.png" id="66_8f4vx"]
+[ext_resource type="Texture2D" uid="uid://bwyk2hgqaryen" path="res://PixelHunt/Main Characters/free_geek_boy_male_game_character_sprites/PNG Images Sequences/run/run_028.png" id="67_tjeb7"]
+[ext_resource type="Texture2D" uid="uid://crkp2nlxybhfy" path="res://PixelHunt/Main Characters/free_geek_boy_male_game_character_sprites/PNG Images Sequences/run/run_029.png" id="68_8kqam"]
+[ext_resource type="Texture2D" uid="uid://ceavev88nbdqj" path="res://PixelHunt/Main Characters/free_geek_boy_male_game_character_sprites/PNG Images Sequences/run/run_030.png" id="69_4n5q2"]
+[ext_resource type="Texture2D" uid="uid://cnk5mqdot01r6" path="res://PixelHunt/Main Characters/free_geek_boy_male_game_character_sprites/PNG Images Sequences/run/run_031.png" id="70_nnxop"]
+[ext_resource type="Texture2D" uid="uid://cbq1uptrxi4fw" path="res://PixelHunt/Main Characters/free_geek_boy_male_game_character_sprites/PNG Images Sequences/run/run_032.png" id="71_swuxo"]
+[ext_resource type="Texture2D" uid="uid://b7lqdp7621tc5" path="res://PixelHunt/Main Characters/free_geek_boy_male_game_character_sprites/PNG Images Sequences/run/run_033.png" id="72_6utj6"]
+[ext_resource type="Texture2D" uid="uid://gekxqur1qfa5" path="res://PixelHunt/Main Characters/free_geek_boy_male_game_character_sprites/PNG Images Sequences/run/run_034.png" id="73_0mryu"]
+[ext_resource type="Texture2D" uid="uid://dnhboik4ds8we" path="res://PixelHunt/Main Characters/free_geek_boy_male_game_character_sprites/PNG Images Sequences/run/run_035.png" id="74_4mfkr"]
+[ext_resource type="Texture2D" uid="uid://d4icmkgio0sis" path="res://PixelHunt/Main Characters/free_geek_boy_male_game_character_sprites/PNG Images Sequences/run/run_036.png" id="75_vixv0"]
+[ext_resource type="Texture2D" uid="uid://cynumls0yxg1k" path="res://PixelHunt/Main Characters/free_geek_boy_male_game_character_sprites/PNG Images Sequences/run/run_037.png" id="76_6kxnl"]
+[ext_resource type="Texture2D" uid="uid://8rwbu713x4hc" path="res://PixelHunt/Main Characters/free_geek_boy_male_game_character_sprites/PNG Images Sequences/run/run_038.png" id="77_4tfxv"]
+[ext_resource type="Texture2D" uid="uid://clje724bkxs7j" path="res://PixelHunt/Main Characters/free_geek_boy_male_game_character_sprites/PNG Images Sequences/run/run_039.png" id="78_ga25v"]
+[ext_resource type="Texture2D" uid="uid://d1odmf2gkupdb" path="res://PixelHunt/Main Characters/free_geek_boy_male_game_character_sprites/PNG Images Sequences/run/run_040.png" id="79_nuxv8"]
+[ext_resource type="Texture2D" uid="uid://cnn1xruj8emth" path="res://PixelHunt/Main Characters/free_geek_boy_male_game_character_sprites/PNG Images Sequences/run/run_041.png" id="80_ncnej"]
+[ext_resource type="Texture2D" uid="uid://dafsla55slyw6" path="res://PixelHunt/Main Characters/free_geek_boy_male_game_character_sprites/PNG Images Sequences/run/run_042.png" id="81_rg8ug"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_l4tlt"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_ymxaj")
+}],
+"loop": true,
+"name": &"Idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_3pqjl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_i400o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_i2j75")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_2howl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_8b5tf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_j6hv3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_an0vt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_eove6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_rv0if")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_l2twt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_gnioa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_2cs26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_bq021")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_40g4x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_polq3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_bgksu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_4f6x5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_nmftg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_mpoen")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_qac61")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_aylql")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_ahl5k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_sovdu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_emuo2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_ttwyp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_jut5f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_wr64v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_wp2iq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_3ig1t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_54ugb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_r57au")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_8yc5e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_ogsam")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_5eql4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_cgrk8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_ubr6v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_8n5vi")
+}],
+"loop": true,
+"name": &"Jump",
+"speed": 50.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_ymxaj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_ohpn2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_kdn4a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_yb0it")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_w7puq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_dpcva")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_vmqin")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_8pdyg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_uvtyb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_6y1s2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_2taa0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_20eea")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_jc78h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_nfsjf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_kqyyv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_ey5ov")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55_piq40")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56_mlthq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57_nfqrt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58_2sdyf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59_vywxr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60_xoucx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61_bs1oj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62_5bkcg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63_l5x05")
+}, {
+"duration": 1.0,
+"texture": ExtResource("64_s1rbq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("65_a6rdu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("66_8f4vx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("67_tjeb7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("68_8kqam")
+}, {
+"duration": 1.0,
+"texture": ExtResource("69_4n5q2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("70_nnxop")
+}, {
+"duration": 1.0,
+"texture": ExtResource("71_swuxo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("72_6utj6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("73_0mryu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("74_4mfkr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("75_vixv0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("76_6kxnl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("77_4tfxv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("78_ga25v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("79_nuxv8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("80_ncnej")
+}, {
+"duration": 1.0,
+"texture": ExtResource("81_rg8ug")
+}],
+"loop": true,
+"name": &"Run",
+"speed": 50.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_j72ad"]
+size = Vector2(29, 35)
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+script = ExtResource("1_ogcpm")
+
+[node name="Sprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(69.375, -69.5)
+scale = Vector2(0.289823, 0.221591)
+sprite_frames = SubResource("SpriteFrames_l4tlt")
+animation = &"Jump"
+autoplay = "Idle"
+frame_progress = 0.339193
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(69.5, -71.5)
+shape = SubResource("RectangleShape2D_j72ad")

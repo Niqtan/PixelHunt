@@ -1,0 +1,49 @@
+[gd_scene load_steps=3 format=3 uid="uid://cx2bi06u30yl1"]
+
+[ext_resource type="Texture2D" uid="uid://c5ccgdxkfuwkw" path="res://images/scaryshinyglasses_upgrade.jpg" id="1_1rerr"]
+[ext_resource type="Script" uid="uid://cwsgj2ye017f6" path="res://Scenes/button.gd" id="2_xhh6f"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 0
+offset_left = -3.0
+offset_top = -30.0
+offset_right = 1175.0
+offset_bottom = 674.0
+color = Color(0, 0, 0, 1)
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 175.0
+offset_top = 253.0
+offset_right = 1021.0
+offset_bottom = 340.0
+theme_override_font_sizes/font_size = 50
+text = "You died lmao ur  not good enough"
+vertical_alignment = 1
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = 48.0
+offset_top = 415.0
+offset_right = 406.0
+offset_bottom = 611.0
+texture = ExtResource("1_1rerr")
+expand_mode = 2
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 0
+offset_left = 523.0
+offset_top = 437.0
+offset_right = 776.0
+offset_bottom = 514.0
+theme_override_font_sizes/font_size = 50
+text = "Play again"
+script = ExtResource("2_xhh6f")
